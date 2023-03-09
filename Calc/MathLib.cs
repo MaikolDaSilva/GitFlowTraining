@@ -29,7 +29,12 @@
 
         public float Power(float op1, float op2)
         {
-            throw new NotImplementedException();
+            float result = op1;
+            for (int i = 1; i < op2; i++)
+            {
+                result *= op1;
+            }
+            return result;
         }
     }
 }
