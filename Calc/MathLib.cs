@@ -14,7 +14,7 @@
 
         public float Mul(float op1, float op2)
         {
-            return op1 - op2;
+            return op1 * op2;
         }
 
         public float Div(float op1, float op2)
